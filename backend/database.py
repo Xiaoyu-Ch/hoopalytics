@@ -4,6 +4,7 @@ import os
 db_path = os.path.join(os.path.dirname(__file__), '../data/nba.sqlite')
 
 db = sqlite3.connect(db_path)
+
 cursor1 = db.cursor()
 cursor2 = db.cursor()
 
